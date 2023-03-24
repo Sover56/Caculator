@@ -29,7 +29,9 @@ button:active {
 }
 
 .input-wrapper {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 40px;
 }
 
@@ -42,4 +44,11 @@ button:active {
   font-size: 20px;
   color: rgb(4, 4, 100);
   font-weight: 600;
+}
+
+#sign {
+  font-size: 30px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 5px;
 }
